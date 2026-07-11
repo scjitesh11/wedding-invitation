@@ -50,9 +50,13 @@ align-items:center;
 .glass{
 
 width:90%;
-max-width:420px;
+max-width:380px;
 
-padding:35px;
+padding:25px;
+
+margin:20px;
+
+border-radius:20px;
 
 border-radius:25px;
 
@@ -78,21 +82,25 @@ margin-bottom:10px;
 
 .glass h1{
 
-font-size:44px;
+font-size:36px;
 
-margin:20px 0;
+margin:15px 0;
 
 }
 
 .glass p{
 
-font-size:18px;
+font-size:16px;
+
+line-height:1.5;
 
 }
 
 .glass h3{
 
-margin:20px 0;
+margin:15px 0;
+
+font-size:22px;
 
 color:#FFD54F;
 
