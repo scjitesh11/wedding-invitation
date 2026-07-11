@@ -415,3 +415,44 @@ height:120px;
 resize:none;
 
 }
+
+/* ===== Background Images ===== */
+
+.invitation-bg{
+    background:url("image/couples2.jpg") no-repeat center center;
+    background-size:cover;
+}
+
+.countdown-bg{
+    background:url("image/couples3.jpg") no-repeat center center;
+    background-size:cover;
+}
+
+.events-bg{
+    background:url("image/couples4.jpg") no-repeat center center;
+    background-size:cover;
+}
+
+/* Dark overlay */
+
+.invitation-bg .page,
+.countdown-bg .page,
+.events-bg .page{
+    background:rgba(0,0,0,0.35);
+}
+
+/* Glass Effect */
+
+.invitation-bg .card,
+.countdown-bg .card,
+.events-bg .card{
+
+    background:rgba(255,255,255,.18);
+
+    backdrop-filter:blur(12px);
+
+    -webkit-backdrop-filter:blur(12px);
+
+    border:1px solid rgba(255,255,255,.25);
+
+}
