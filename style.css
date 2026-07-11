@@ -419,17 +419,17 @@ resize:none;
 /* ===== Background Images ===== */
 
 .invitation-bg{
-    background:url("image/couples2.jpg") no-repeat center center;
+    background:url("image/Background1.jpg") no-repeat center center;
     background-size:cover;
 }
 
 .countdown-bg{
-    background:url("image/couples3.jpg") no-repeat center center;
+    background:url("image/Background1.jpg") no-repeat center center;
     background-size:cover;
 }
 
 .events-bg{
-    background:url("image/couples4.jpg") no-repeat center center;
+    background:url("image/Background1.jpg") no-repeat center center;
     background-size:cover;
 }
 
