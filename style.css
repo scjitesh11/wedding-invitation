@@ -474,3 +474,23 @@ resize:none;
     -webkit-backdrop-filter:blur(12px);
     border:1px solid rgba(255,255,255,.25);
 }
+
+
+/* ===== RSVP Background ===== */
+
+.rsvp-bg{
+    background:url("image/Background1.jpg") no-repeat center center fixed;
+    background-size:cover;
+    min-height:100vh;
+}
+
+.rsvp-bg .page{
+    background:rgba(0,0,0,0.35);
+}
+
+.rsvp-bg .card{
+    background:rgba(255,255,255,.18);
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+    border:1px solid rgba(255,255,255,.25);
+}
