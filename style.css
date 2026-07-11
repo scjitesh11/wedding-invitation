@@ -456,3 +456,21 @@ resize:none;
     border:1px solid rgba(255,255,255,.25);
 
 }
+
+/* Gallery Background */
+
+.gallery-bg{
+    background:url("image/Background1.jpg") no-repeat center center;
+    background-size:cover;
+}
+
+.gallery-bg .page{
+    background:rgba(0,0,0,0.35);
+}
+
+.gallery-bg .card{
+    background:rgba(255,255,255,.18);
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+    border:1px solid rgba(255,255,255,.25);
+}
