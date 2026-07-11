@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Gallery</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="page">
+
+<div class="card">
+
+<h1>📸 Our Beautiful Journey ❤️</h1>
+
+<p>Some beautiful moments before our big day.</p>
+
+<div class="galleryGrid">
+
+<img src="images/gallery1.jpg" onclick="openImage(this.src)">
+
+<img src="images/gallery2.jpg" onclick="openImage(this.src)">
+
+<img src="images/gallery3.jpg" onclick="openImage(this.src)">
+
+<img src="images/gallery4.jpg" onclick="openImage(this.src)">
+
+</div>
+
+<br>
+
+<a href="rsvp.html">
+
+<button>
+
+Next →
+
+</button>
+
+</a>
+
+</div>
+
+</div>
+
+<div id="popup" class="popup" onclick="closeImage()">
+
+<img id="popupImage">
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
